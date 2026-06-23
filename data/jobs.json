@@ -15,7 +15,7 @@
     ],
     "posted": "2025-03-01",
     "status": "closed",
-    "applicants": 1
+    "applicants": 0
   },
   {
     "id": "J002",
@@ -33,7 +33,7 @@
     ],
     "posted": "2025-03-05",
     "status": "open",
-    "applicants": 2
+    "applicants": 1
   },
   {
     "id": "J003",
@@ -51,7 +51,7 @@
     ],
     "posted": "2025-03-08",
     "status": "open",
-    "applicants": 1
+    "applicants": 0
   },
   {
     "id": "J004",
@@ -68,6 +68,6 @@
     ],
     "posted": "2026-04-12",
     "status": "open",
-    "applicants": 1
+    "applicants": 0
   }
 ]
