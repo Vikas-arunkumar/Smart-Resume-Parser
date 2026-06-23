@@ -1,0 +1,73 @@
+[
+  {
+    "id": "J001",
+    "title": "Python Backend Developer",
+    "department": "Engineering",
+    "location": "Chennai / Remote",
+    "type": "Full-time",
+    "description": "We are looking for a skilled Python developer to build and maintain scalable backend systems. You will design RESTful APIs, optimise database queries, write clean tested code, and collaborate closely with the product team.",
+    "skills": [
+      "Python",
+      "Flask",
+      "REST API",
+      "SQL",
+      "Git"
+    ],
+    "posted": "2025-03-01",
+    "status": "closed",
+    "applicants": 1
+  },
+  {
+    "id": "J002",
+    "title": "Data Science Intern",
+    "department": "Analytics",
+    "location": "Chennai",
+    "type": "Internship",
+    "description": "Join our data team to build ML models, analyse datasets, and create visualisations that drive business decisions. Ideal for final-year students with solid Python and machine learning fundamentals.",
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "Pandas",
+      "Scikit-learn",
+      "Matplotlib"
+    ],
+    "posted": "2025-03-05",
+    "status": "open",
+    "applicants": 2
+  },
+  {
+    "id": "J003",
+    "title": "Frontend Developer",
+    "department": "Product",
+    "location": "Remote",
+    "type": "Full-time",
+    "description": "Build beautiful, responsive interfaces for our recruitment platform. You will work closely with designers to bring Figma mocks to life using React, write accessible HTML/CSS, and keep performance sharp.",
+    "skills": [
+      "React",
+      "JavaScript",
+      "CSS",
+      "Tailwind",
+      "Figma"
+    ],
+    "posted": "2025-03-08",
+    "status": "open",
+    "applicants": 1
+  },
+  {
+    "id": "J004",
+    "title": "Python dev",
+    "department": "Engineering",
+    "location": "Remote",
+    "type": "Full-time",
+    "description": "We are looking for a passionate Python Developer to join our remote engineering team. The candidate will be responsible for developing, testing, and maintaining scalable backend systems and applications. The ideal candidate should have strong problem-solving skills and a good understanding of Python and related technologies.",
+    "skills": [
+      "OOP",
+      "SQL",
+      "Python",
+      "Machine Learning"
+    ],
+    "posted": "2026-04-12",
+    "status": "open",
+    "applicants": 1
+  }
+]
