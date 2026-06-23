@@ -1,53 +1,53 @@
-# 🚀 TalentScan - AI Powered Resume Screening System
+# 🔍 TalentScan – Intelligent Resume Screening System
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python" />
-  <img src="https://img.shields.io/badge/Streamlit-Web%20App-red?style=for-the-badge&logo=streamlit" />
-  <img src="https://img.shields.io/badge/NLP-Resume%20Parsing-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" />
-</p>
-
-<p align="center">
-  An intelligent recruitment platform that automates resume screening, candidate evaluation, and job matching using Natural Language Processing (NLP).
+  <h3 align="center">AI-Powered Resume Parsing & Candidate Matching Platform</h3>
+  <p align="center">
+    Built using Python, Streamlit and Natural Language Processing (NLP)
+  </p>
 </p>
 
 ---
 
-## 📌 Overview
+## 📖 About The Project
 
-Recruiters often spend hours manually reviewing resumes to identify suitable candidates. TalentScan simplifies this process by automatically extracting candidate information, identifying skills, and calculating job-match scores.
+TalentScan is an intelligent recruitment platform that automates resume screening and candidate evaluation using Natural Language Processing techniques.
 
-The system enables recruiters to quickly shortlist applicants while providing candidates with an easy way to apply for relevant job openings.
+The system extracts important information from uploaded resumes, identifies technical skills, analyzes candidate qualifications, and matches applicants against available job openings.
+
+Instead of manually reviewing hundreds of resumes, recruiters can quickly identify the most suitable candidates through automated skill matching and ranking.
 
 ---
 
-## ✨ Key Features
+## ✨ Features
 
-### 👨‍💼 Candidate Portal
+### 👨‍💼 Candidate Features
 
-* Upload resumes in PDF/DOCX format
+* Upload resumes in PDF format
 * Automatic resume parsing
-* Candidate profile extraction
-* Instant application submission
-* Real-time job matching
+* Skill extraction
+* Job matching based on qualifications
+* Application submission
 
-### 🏢 Recruiter Dashboard
+### 🏢 Recruiter Features
 
-* Create and manage job postings
-* View candidate applications
-* Track application status
-* Compare applicants using match scores
-* Streamlined hiring workflow
+* View available candidates
+* Manage job openings
+* Track applications
+* Review candidate profiles
+* Compare match scores
 
-### 🤖 AI & NLP Engine
+### 🤖 NLP Features
 
 * Resume text extraction
-* Skill identification
-* Contact information extraction
+* Tokenization
+* Stopword removal
+* Lemmatization
+* Entity extraction
+* Skill detection
 * Education detection
 * Experience extraction
 * Job-role matching
-* Candidate ranking
 
 ---
 
@@ -58,14 +58,24 @@ Resume Upload
       │
       ▼
 Text Extraction
+(PDF / DOCX)
       │
       ▼
 Preprocessing
-(Tokenization, Cleaning)
+      │
+      ├─ Cleaning
+      ├─ Tokenization
+      ├─ Stopword Removal
+      └─ Lemmatization
       │
       ▼
 Information Extraction
-(Name, Email, Phone)
+      │
+      ├─ Name
+      ├─ Email
+      ├─ Phone
+      ├─ Education
+      └─ Experience
       │
       ▼
 Skill Detection
@@ -79,22 +89,40 @@ Candidate Ranking
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Technologies Used
 
-| Category                | Technology                      |
-| ----------------------- | ------------------------------- |
-| Frontend                | Streamlit                       |
-| Backend                 | Python                          |
-| NLP                     | NLTK, Regex, Text Processing    |
-| Data Storage            | JSON                            |
-| Resume Parsing          | PyPDF2, pdfplumber, python-docx |
-| Development Environment | VS Code                         |
+### Frontend
+
+* Streamlit
+
+### Backend
+
+* Python
+
+### Resume Processing
+
+* PyPDF2
+* pdfplumber
+* python-docx
+
+### NLP Techniques
+
+* Tokenization
+* Stopword Removal
+* Lemmatization
+* Regex-Based Entity Extraction
+* Skill Matching
+* Resume Scoring
+
+### Data Storage
+
+* JSON Files
 
 ---
 
 ## 📂 Project Structure
 
-```bash
+```text
 TalentScan/
 │
 ├── main.py
@@ -106,155 +134,89 @@ TalentScan/
 │   ├── applications.json
 │   └── resumes/
 │
-├── assets/
-│
-├── requirements.txt
 └── README.md
-```
-
----
-
-## 🚀 Getting Started
-
-### 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/your-username/TalentScan.git
-cd TalentScan
-```
-
-### 2️⃣ Create Virtual Environment
-
-```bash
-python -m venv venv
-```
-
-### 3️⃣ Activate Environment
-
-#### Windows
-
-```bash
-venv\Scripts\activate
-```
-
-#### Linux / Mac
-
-```bash
-source venv/bin/activate
-```
-
-### 4️⃣ Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 5️⃣ Run Application
-
-```bash
-streamlit run main.py
-```
-
-Application will launch at:
-
-```text
-http://localhost:8501
 ```
 
 ---
 
 ## 🎯 How It Works
 
-### Candidate Workflow
+### Step 1
 
-1. Upload Resume
-2. Resume Parsed Automatically
-3. Skills Extracted
-4. Matching Jobs Displayed
-5. Application Submitted
+Recruiters create job openings with required skills.
 
-### Recruiter Workflow
+### Step 2
 
-1. Create Job Posting
-2. Receive Applications
-3. View Match Scores
-4. Shortlist Candidates
-5. Continue Recruitment Process
+Candidates upload their resumes.
 
----
+### Step 3
 
-## 📊 Sample Information Extracted
+The NLP engine extracts:
 
-The system can automatically identify:
+* Contact Information
+* Education
+* Experience
+* Technical Skills
 
-✅ Candidate Name
+### Step 4
 
-✅ Email Address
+Extracted skills are compared against job requirements.
 
-✅ Phone Number
+### Step 5
 
-✅ Technical Skills
+A match score is generated.
 
-✅ Educational Qualifications
+### Step 6
 
-✅ Work Experience
-
-✅ Resume Keywords
+Recruiters can review and shortlist candidates efficiently.
 
 ---
 
-## 🔥 Future Enhancements
+## 📊 Skills Database
 
-* Machine Learning Based Ranking
-* Semantic Skill Matching
-* Resume Recommendation Engine
-* PostgreSQL / MongoDB Integration
-* User Authentication
-* Email Notifications
-* Interview Scheduling
-* AI-Powered Candidate Insights
-* Generative AI Resume Analysis
+TalentScan contains an extensive skill database covering:
+
+* Programming Languages
+* Frontend Technologies
+* Backend Technologies
+* Databases
+* Cloud Computing
+* Machine Learning
+* Artificial Intelligence
+* DevOps Tools
+* Data Analytics
+* Software Engineering
 
 ---
 
-## 📸 Screenshots
+## 🚀 Future Improvements
 
-Add screenshots of your application here.
-
-### Home Page
-
-```text
-assets/homepage.png
-```
-
-### Recruiter Dashboard
-
-```text
-assets/recruiter_dashboard.png
-```
-
-### Candidate View
-
-```text
-assets/candidate_portal.png
-```
+* Machine Learning based ranking
+* Semantic skill matching using embeddings
+* MongoDB / PostgreSQL integration
+* Authentication system
+* Email notifications
+* Interview scheduling
+* Recruiter analytics dashboard
+* Generative AI resume analysis
 
 ---
 
 ## 🎓 Academic Context
 
-This project was developed as part of coursework and practical exploration in:
+Developed as part of:
 
-* Natural Language Processing
-* Information Retrieval
-* Software Engineering
-* Full Stack Application Development
+**IT23602 – Natural Language & Image Processing**
+
+**Madras Institute of Technology (MIT)**
+
+**Anna University**
 
 ---
 
 ## 👨‍💻 Author
 
-### Vikas Arunkumar
+**Vikas Arunkumar**
 
 B.Tech Information Technology
 
@@ -264,18 +226,13 @@ Anna University
 
 ---
 
-## ⭐ Support
+## ⭐ If You Like This Project
 
-If you found this project useful:
-
-⭐ Star the repository
-
-🍴 Fork the project
-
-📢 Share it with others
+Give this repository a ⭐ and support the project.
 
 ---
 
 <p align="center">
-  Built with ❤️ using Python, Streamlit and NLP
+Built with ❤️ using Python, Streamlit and NLP
 </p>
+
